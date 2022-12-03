@@ -8,7 +8,7 @@ import TransactionList from "./TransactionList";
 
 export default function ContentRight() {
   return (
-    <section className="w-96 bg-gray-100 rounded-tl-70px overflow-hidden px-8">
+    <section className="content-right w-96 bg-gray-100 rounded-tl-70px h-screen overflow-y-scroll px-8 ">
       <div className="pt-12 flex justify-end space-x-9 items-center">
         <GrNotification size={20} />
         <BiUser size={20} />

@@ -49,7 +49,7 @@ export default function Slidebar() {
             {schedulePayments.map((val) => {
               return (
                 <div className="flex flex-row items-center text-gray-500">
-                  <div className="h-4 w-4 border border-gray-200 mr-2 rounded-full"></div>
+                  <div className="h-4 w-4 border border-indigo-500 mr-2 rounded-full"></div>
                   <spam>{val}</spam>
                 </div>
               );

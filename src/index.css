@@ -26,4 +26,12 @@
     @apply bg-purple-400 h-36 w-36 absolute -right-8 -top-8 rounded-full;
 }
 
+.content-left::-webkit-scrollbar{
+    display: none;
+}
+
+.content-right::-webkit-scrollbar{
+    display: none;
+}
+
  
